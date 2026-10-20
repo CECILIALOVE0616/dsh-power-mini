@@ -1,0 +1,30 @@
+{
+  "name": "dsh-power-mini",
+  "version": "0.2.0",
+  "description": "Restart and quit entries for the DSH Desktop shell: two buttons in the session header utilities slot.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": {
+      "default": "./client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "client.js",
+    "power-helper.cjs",
+    "cordis.patch.yml"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  }
+}

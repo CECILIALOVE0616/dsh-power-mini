@@ -1,0 +1,4 @@
+# dsh-power-mini bundle patch
+- insert:
+    - id: power-mini
+      name: 'dsh-power-mini'
