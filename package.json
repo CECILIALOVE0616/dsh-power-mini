@@ -1,6 +1,6 @@
-{
+﻿{
   "name": "dsh-power-mini",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Restart and quit entries for the DSH Desktop shell: two buttons in the session header utilities slot.",
   "type": "module",
   "main": "index.js",
